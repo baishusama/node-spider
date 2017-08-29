@@ -1,0 +1,24 @@
+{
+  "name": "node-spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baishusama/node-spider.git"
+  },
+  "author": "baishusama <baishusama@outlook.com> (http://baishusama.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baishusama/node-spider/issues"
+  },
+  "homepage": "https://github.com/baishusama/node-spider#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "superagent": "^3.6.0"
+  }
+}
