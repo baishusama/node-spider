@@ -32,6 +32,6 @@ app.get('/', function (req, res, next) {
 });
 
 // process.env.PORT for deploy to heroku.com
-app.listen(process.env.PORT || 3000, function(req, res){
-    console.log('app is running at port 3000');
+app.listen(process.env.PORT || 8888, function(req, res){
+    console.log('app is running at port 8888');
 });
